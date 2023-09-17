@@ -22,8 +22,6 @@ const { chromium } = require('playwright');
   const title = await page.title()
   expect(title).toBe('')
 
-
-  await page.locator('#Input_Username').click();
   await page.locator('#Input_Username').type('756.279.760-98');
   await page.locator('#Input_PasswordVal').fill('Teste@234');
   await page.getByRole('button', { name: 'Entrar' }).click();
@@ -44,6 +42,7 @@ const { chromium } = require('playwright');
   //await page.waitForTimeout(5000)
   await page.waitForLoadState()
   await page.screenshot({ path: `./vendas/vendas_hoje--${dataFormatada}.png`, fullPage: true })
+  await page.pdf({ path:'mypage.pdf' })
   // ---------------------
 
   await browser.close();
