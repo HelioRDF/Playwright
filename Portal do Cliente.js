@@ -14,7 +14,7 @@ const { chromium } = require('playwright');
   const dataFormatada = `${dia}-${mes}-${ano}--${horas}h${minutos}min`;
 
 
-  const browser = await chromium.launch({ args: ['--start-maximized'], headless: true });
+  const browser = await chromium.launch({ args: ['--start-maximized'], headless: false });
   const page = await browser.newPage();
   await page.setViewportSize({ width: 1880, height: 920 });
 
