@@ -3,12 +3,14 @@
 - Instalar o Node
 
 - Dependências
-```npm init -y```
+```npm init -y ``` ou ```npm install ```
 ```npm install playwright``` ou ```npx playwright install ```
-```node teste.js```
 ```npm install expect```
 ```npx playwright test --ui```
 ```npx playwright codegen https://fdbidpl-tst1.outsystemsenterprise.com/```
+
+- Executar arquivo .js
+```node teste.js```
 
 -------------------------------------------------------------------------------------
 
@@ -70,3 +72,4 @@
 
 - Plugin
 Headless Recorder
+Hide files - Mouadh HSOUMI

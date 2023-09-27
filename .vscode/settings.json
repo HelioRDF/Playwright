@@ -9,14 +9,16 @@
         ".gitignore": true,
         ".vscode": true,
         "script/package-lock.json": true,
-        "script/node_modules": false,
-        "v1": true
+        "script/node_modules": true,
+        "v1": true,
+        "README.md": true
     },
     "hide-files.files": [
         ".gitignore",
         ".vscode",
         "script/package-lock.json",
         "script/node_modules",
-        "v1"
+        "v1",
+        "README.md"
     ]
 }
