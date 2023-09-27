@@ -9,7 +9,7 @@
         ".gitignore": true,
         ".vscode": true,
         "script/package-lock.json": true,
-        "script/node_modules": true,
+        "script/node_modules": false,
         "v1": true
     },
     "hide-files.files": [
