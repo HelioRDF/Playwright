@@ -7,5 +7,9 @@ test.beforeEach(async ({page}) => {
 
  test.use({ viewport: { width: 600, height: 900 } }); // local configuration: only applicable to this file.
 
-test('config basic test ', login )
+test('config basic test1 ', login )
+test('config basic test2 ', login )
+test('config basic test3 ', login )
+test('config basic test4 ', login )
+test('config basic test5 ', login )
 

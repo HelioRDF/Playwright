@@ -14,7 +14,7 @@ const config = {
   },
   testDir: './',
   retries: 2,
-  workers:2,
+  workers:3,
   timeout: 60000,
   projects: [
     {

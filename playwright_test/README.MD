@@ -10,6 +10,7 @@
 - Executar de acordo com o nome do arquivo
 > npx playwright test /second.spec.js
 > npx playwright test /first
+> npx playwright test /suites/suite.spec
 
 - Executar teste de acordo com o nome
 > npx playwright test -g 'login test'
