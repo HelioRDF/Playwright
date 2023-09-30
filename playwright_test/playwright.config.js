@@ -12,7 +12,7 @@ const config = {
     
     trace: 'on', // 'on', 'off', 'retain-on-failure', 'on-first-retry'
   },
-  testDir: '/',
+  testDir: './',
   retries: 2,
   workers:2,
   timeout: 60000,
