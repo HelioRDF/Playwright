@@ -9,6 +9,7 @@ test('basic test', async ({ page }) => {
     await page.press('input[type = "email"]', 'Tab')
     await page.type('input[type = "password"]', 'test123')
     await page.click('form >> "Sign in"')
+    await page.waitForTimeout(3000)
     const logoText = await page.$eval('.navbar-brand', el => el.innerText)
     expect(logoText).toBe('conduit')
 })

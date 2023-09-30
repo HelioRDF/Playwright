@@ -11,7 +11,9 @@
         "script/package-lock.json": true,
         "script/node_modules": true,
         "v1": true,
-        "README.md": true
+        "README.md": true,
+        "playwright_test/node_modules": true,
+        "playwright_test/package-lock.json": true
     },
     "hide-files.files": [
         ".gitignore",
@@ -19,6 +21,8 @@
         "script/package-lock.json",
         "script/node_modules",
         "v1",
-        "README.md"
+        "README.md",
+        "playwright_test/node_modules",
+        "playwright_test/package-lock.json"
     ]
 }

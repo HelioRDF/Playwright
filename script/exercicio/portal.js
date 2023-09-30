@@ -1,7 +1,7 @@
 
 const {chromium} = require('playwright');
 
-(async() => {
+ (async () => {
     const browser = await chromium.launch({headless:false})
     // const context = await browser.newContext()
     // const page = await context.newPage()
@@ -15,4 +15,6 @@ const {chromium} = require('playwright');
     await page.waitForLoadState();
     await page.getByRole('button', { name: 'Entrar' }).click();
 }) ()
+
+
 
