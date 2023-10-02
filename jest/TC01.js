@@ -1,4 +1,4 @@
-data = require("../data/data.json");
+data = require("./data/data.json");
 describe('Suite 001', () => {
 
   test('Sign In', async () => {
