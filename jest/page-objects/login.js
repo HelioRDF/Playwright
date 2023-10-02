@@ -23,11 +23,11 @@ class login {
   }
 
   async buscarTitulo() {
+    await page.waitForTimeout(2000);
     return await page.title();
   }
 
   async fecharBrowser() {
-    await page.waitForTimeout(4000);
     return await browser.close();
   }
 }

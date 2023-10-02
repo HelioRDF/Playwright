@@ -1,6 +1,6 @@
 module.exports = {
     preset: 'jest-playwright-preset',
-    "testEnvironment": "./CustomEnvironment.js",
+   // "testEnvironment": "./CustomEnvironment.js",
     "reporters": [
         "default",
         ["jest-html-reporters", {
