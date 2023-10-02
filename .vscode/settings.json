@@ -5,24 +5,7 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        ".gitignore": true,
-        ".vscode": true,
-        "script/package-lock.json": true,
-        "script/node_modules": true,
-        "v1": true,
-        "README.md": true,
-        "playwright_test/node_modules": true,
-        "playwright_test/package-lock.json": true
+        "**/Thumbs.db": true
     },
-    "hide-files.files": [
-        ".gitignore",
-        ".vscode",
-        "script/package-lock.json",
-        "script/node_modules",
-        "v1",
-        "README.md",
-        "playwright_test/node_modules",
-        "playwright_test/package-lock.json"
-    ]
+    "hide-files.files": []
 }

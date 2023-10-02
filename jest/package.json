@@ -1,0 +1,16 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "> npm init -y\r > npm install jest \r > npm install jest-playwright-preset\r > npm install playwright",
+  "main": "jest-playwright.config.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest-html-reporters": "^3.1.4",
+    "jest-playwright-preset": "^3.0.1",
+    "playwright": "^1.38.1"
+  }
+}

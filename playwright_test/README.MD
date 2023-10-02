@@ -2,6 +2,8 @@
 > npm install
 > npm i -D @playwright/test 
 > npx playwright install
+
+-Executar
 > npx playwright test
 
 - Abrir o navegador e executar em todos os browsers todos os arquivos.
